@@ -1,3 +1,7 @@
+.menu ul > li{
+  text-align: justify left;
+}
+
 .App {
   text-align: center;
 }
