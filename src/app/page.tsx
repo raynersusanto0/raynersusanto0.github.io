@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profilePic from '../../public/me.jpg';
+import Carousel from "@/components/carousel_display/Carousel";
 
 export default function Home() {
   return (
@@ -11,8 +12,12 @@ export default function Home() {
               <div className="row-start-2">
                 <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl"> My name is Rayner Susanto </h2>
               </div>
-              <div className="row-start-3">
-                <h2 className="text-5xl">I am a</h2>
+              <div className="row-start-3 max-h-[100px] max-w-[30rem]">
+                <div>
+                  <h2 className="text-5xl pb-5">I am a</h2>
+                  <Carousel />
+                </div>
+
               </div>
             </div>
         </div>
